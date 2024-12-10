@@ -1,0 +1,101 @@
+<ion-content>
+
+  <div class="botonR">
+    <ion-button expand="block" routerLink="/tabs/tab1">←</ion-button>
+  </div>
+
+  <div class="logo">
+    <img src="assets\Login\LOGO.png" height="120px" width="120px" alt="Logo AeroBUY">
+  </div>
+
+  <form #formulario="ngForm" (ngSubmit)="onSubmitTemplate()">
+    <div class="crearCuenta">
+      <h1>Crear Cuenta</h1>
+    </div>
+
+    <div class="nombre">
+      <ion-item>
+        <ion-label position="floating">Nombre(s)</ion-label>
+        <ion-input type="text"
+        name="nombre"
+        pattern="[a-zA-Z ]*"
+        [(ngModel)]="usuarionuevo.nombre"
+        required></ion-input>
+      </ion-item>
+    </div>
+
+    <div class="apellido">
+      <ion-item>
+        <ion-label position="floating">Apellido(s)</ion-label>
+        <ion-input type="text" 
+        name="apellido"
+        pattern="[a-zA-Z ]*"
+        [(ngModel)]="usuarionuevo.apellido"
+        required></ion-input>
+      </ion-item>
+    </div>
+
+    <div class="fechaNac">
+      <ion-item class="custom-item">
+        <ion-label position="floating">Fecha de Nacimiento</ion-label>
+        <ion-input type="date" 
+        name="fechaNac"
+        placeholder="Fecha de Nacimiento"
+        [(ngModel)]="usuarionuevo.fechaNac"
+        required></ion-input>
+      </ion-item>
+    </div>
+
+    <div class="correo">
+      <ion-item>
+        <ion-label position="floating">Correo Electrónico</ion-label>
+        <ion-input type="email"
+        name="email"
+        pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
+        [(ngModel)]="usuarionuevo.email"
+        required></ion-input>
+      </ion-item>
+    </div>
+
+    <div class="contra">
+      <ion-item>
+        <ion-label position="floating">Contraseña</ion-label>
+        <ion-input type="password"
+        name="password"
+        minlength="8"
+        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+        [(ngModel)]="usuarionuevo.password" 
+        required></ion-input>
+      </ion-item>
+    </div>
+
+    <div class="confContra">
+      <ion-item>
+        <ion-label position="floating">Confirmar Contraseña</ion-label>
+        <ion-input type="password"
+        name="confpassword"
+        minlength="8"
+        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+        [(ngModel)]="usuarionuevo.npassword" 
+        required></ion-input>
+      </ion-item>
+    </div>
+
+    <div class="cel">
+      <ion-item>
+        <ion-label position="floating">Teléfono Celular</ion-label>
+        <ion-input type="tel"
+        name="celular"
+        minlength="10"
+        maxlength="10"
+        pattern="[667][0-9]{9}"
+        [(ngModel)]="usuarionuevo.celular"
+        required></ion-input>
+      </ion-item>
+    </div>
+
+    <div class="boton">
+      <ion-button expand="block" routerLink="/tabs/tab1" [disabled]="formulario.invalid || usuarionuevo.password !== usuarionuevo.npassword">CREAR</ion-button>
+    </div>
+  </form>
+</ion-content>

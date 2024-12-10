@@ -1,0 +1,89 @@
+ion-content {
+    --background: #ffffff; /* Cambia "lightblue" por el color que desees */
+}
+
+.logo {
+    display: flex;
+    padding-top: 27px;
+    justify-content: center;
+    align-items: center;
+}
+
+.recuperarCuenta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #02295C;
+    font: normal normal bold 30px/40px Segoe UI;
+    padding-top: 0px;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font: normal 100px/100px Segoe UI;
+    text-align: center; 
+}
+.texto h1 {
+    font-size: 35px;
+    color: #03459C; 
+  }
+
+.correo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.correo ion-item { 
+    border-radius: 10px;
+    width: 340px;
+    --background: #F0F0F0;
+    --border-style: none;
+
+    ion-input {
+        --color: #02295C; 
+    }
+}
+.correo ion-label, .boxes ion-input {
+    color: #02295C; 
+}
+
+.codigoR {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.codigoR ion-item { 
+    border-radius: 10px;
+    width: 340px;
+    --background: #F0F0F0;
+    --border-style: none;
+
+    ion-input {
+        --color: #02295C; 
+    }
+}
+.codigoR ion-label, .boxes ion-input {
+    color: #02295C; 
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.boton ion-button {
+    --background: #03459C;
+    --color: white;
+    font-size: 25px;
+    padding: 5px;
+    font-family: 'Segoe UI', sans-serif; /* Cambio de la fuente */
+    letter-spacing: 1px;
+    line-height: 1;
+}

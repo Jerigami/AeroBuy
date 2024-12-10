@@ -1,0 +1,40 @@
+ion-content {
+    --background: #ffffff; /* Cambia "lightblue" por el color que desees */
+}
+
+.logo {
+    display: flex;
+    padding-top: 27px;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font: normal 100px/100px Segoe UI;
+    text-align: center; 
+}
+.texto h1 {
+    font-size: 35px;
+    color: #03459C; 
+  }
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.boton ion-button {
+    --background: #03459C;
+    --color: white;
+    font-size: 25px;
+    padding: 5px;
+    font-family: 'Segoe UI', sans-serif; /* Cambio de la fuente */
+    letter-spacing: 1px;
+    line-height: 1;
+}

@@ -1,0 +1,198 @@
+ion-content {
+    --background: #ffffff; /* Cambia "lightblue" por el color que desees */
+}
+
+.botonR {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-top: 0px;
+}
+.botonR ion-button {
+    --background: #03459C;
+    --color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Segoe UI', sans-serif; 
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+
+.logo {
+    display: flex;
+    padding-top: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.crearCuenta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #02295C;
+    font: normal normal bold 30px/40px Segoe UI;
+    padding-top: 0px;
+}
+
+.nombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.nombre ion-item { 
+    border-radius: 10px;
+    width: 340px;
+    --background: #F0F0F0;
+    --border-style: none;
+
+    ion-input {
+        --color: #02295C; /* Cambia el color del texto mientras se ingresa */
+    }
+}
+.nombre ion-label, .boxes ion-input {
+    color: #02295C; 
+}
+
+.apellido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.apellido ion-item { 
+    border-radius: 10px;
+    width: 340px;
+    --background: #F0F0F0;
+    --border-style: none;
+
+    ion-input {
+        --color: #02295C; 
+    }
+}
+.apellido ion-label, .boxes ion-input {
+    color: #02295C; 
+}
+
+
+.fechaNac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.fechaNac ion-item { 
+    border-radius: 10px;
+    width: 340px;
+    --background: #F0F0F0;
+    --border-style: none;
+
+    ion-input {
+        --color: #02295C; 
+    }
+}
+.fechaNac ion-label, .boxes ion-input {
+    color: #02295C; 
+}
+
+
+.correo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.correo ion-item { 
+    border-radius: 10px;
+    width: 340px;
+    --background: #F0F0F0;
+    --border-style: none;
+
+    ion-input {
+        --color: #02295C; 
+    }
+}
+.correo ion-label, .boxes ion-input {
+    color: #02295C; 
+}
+
+
+.contra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.contra ion-item { 
+    border-radius: 10px;
+    width: 340px;
+    --background: #F0F0F0;
+    --border-style: none;
+
+    ion-input {
+        --color: #02295C; /* Cambia el color del texto mientras se ingresa */
+    }
+}
+.contra ion-label, .boxes ion-input {
+    color: #02295C; 
+}
+
+.confContra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.confContra ion-item { 
+    border-radius: 10px;
+    width: 340px;
+    --background: #F0F0F0;
+    --border-style: none;
+
+    ion-input {
+        --color: #02295C; /* Cambia el color del texto mientras se ingresa */
+    }
+}
+.confContra ion-label, .boxes ion-input {
+    color: #02295C; 
+}
+
+
+.cel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.cel ion-item { 
+    border-radius: 10px;
+    width: 340px;
+    --background: #F0F0F0;
+    --border-style: none;
+
+    ion-input {
+        --color: #02295C; 
+    }
+}
+.cel ion-label, .boxes ion-input {
+    color: #02295C; 
+}
+
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.boton ion-button {
+    --background: #03459C;
+    --color: white;
+    font-size: 25px;
+    padding: 5px;
+    font-family: 'Segoe UI', sans-serif; /* Cambio de la fuente */
+    letter-spacing: 1px;
+    line-height: 1;
+}
+

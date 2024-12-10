@@ -1,0 +1,34 @@
+ion-content {
+    --background: #FFFFFF; /* Cambia "lightblue" por el color que desees */
+}
+.lista ion-list {
+    font-size: 20px;
+    color: #02295C;
+    background-color: #ffffff; 
+  }
+  .lista {
+    justify-content: left;
+    padding-top: 0px;
+    font: normal 20px/20px Segoe UI;
+    text-align: left; 
+  }
+  .lista h1 {
+    font-size: 30px;
+    font:normal 30px/30px Segoe UI;
+    color: #02295C; 
+    font-weight: bold;
+  }
+  .lista p {
+    font-size: 20px;
+    color: #02295C; 
+  }
+  .lista h3 {
+    font-size: 15px;
+    color: #3a3c40; 
+  }
+  ion-item {
+    --background: #ffffff; 
+    --color: #02295C; 
+    box-shadow: none; 
+    border: none;
+  }

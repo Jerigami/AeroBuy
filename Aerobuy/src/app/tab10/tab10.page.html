@@ -1,0 +1,99 @@
+<ion-content>
+
+  <div style="padding-left:100px; display: flex; justify-content: space-between;">
+    <div class="logo" style="padding-left: 84px;">
+       <img src="assets/Login/LOGO.png" height="40px" width="40px" alt="Logo AeroBUY">
+    </div>
+ 
+    <div class="carrito" style="padding-right: 5px; padding-top: 7px;" >
+      <ion-item href="/tabs/tab1" lines="none"> 
+       <ion-icon name="cart-outline" style="color: #02295C; font-size: 25px;" ></ion-icon>
+      </ion-item>
+      </div>
+ </div>
+
+
+
+
+  <ion-menu contentId="main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Menú</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <div class="cuenta">
+        <ion-item href="#">
+          <ion-icon slot="start" name="person-outline" color="#782478" style="margin-right: 15px"></ion-icon>
+          Mi Cuenta
+        </ion-item>
+      </div>
+
+      <div class="pase">
+        <ion-item href="#">
+          <ion-icon slot="start" name="airplane-outline" color="#782478" style="margin-right: 15px"></ion-icon>
+          Pase de Abordar
+        </ion-item>
+      </div>
+
+      <div class="contacto">
+        <ion-item href="#">
+          <ion-icon slot="start" name="call-outline" color="#782478" style="margin-right: 15px"></ion-icon>
+          Contacto
+        </ion-item>
+      </div>
+
+      <div class="Acerca de">
+        <ion-item href="#">
+          <ion-icon slot="start" name="information-outline" color="#782478" style="margin-right: 15px"></ion-icon>
+          Acerca de
+        </ion-item>
+      </div>
+
+      <div class="Cerrar Sesion">
+        <ion-item routerLink="/tabs/tab1">
+          <ion-icon slot="start" name="log-out-outline" color="#782478" style="margin-right: 15px"></ion-icon>
+          Cerrar Sesión
+        </ion-item>
+      </div>
+
+    </ion-content>
+  </ion-menu>
+  
+  <div class="ion-page" id="main-content">
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+    </ion-toolbar> 
+  </div>
+
+
+  <div class="aero">
+    <img src="assets\icon\avionA.png" height="40px" width="40px" alt="avión" >
+    <h1>Aeropuerto Internacional de la Ciudad de México (AICM)</h1>
+  </div>
+
+  <div class="farm">
+    <h1 style="text-align: center">FARMACIAS</h1>
+  </div>
+
+  <br>
+
+  <ion-segment [scrollable]="true" value="ahorro" >
+    <ion-segment-button value="ahorro">
+      <img src="assets\farmacias\ahorro.png" value="ahorro" height="35px" width="35px" >
+    </ion-segment-button>
+    <ion-segment-button value="benavides">
+      <img src="assets\farmacias\benavides.png" value="benavides" height="35px" width="35px" >
+    </ion-segment-button>
+    <ion-segment-button value="guadalajara">
+      <img src="assets\farmacias\guadalajara.png" value="guadalajara" height="35px" width="35px" >
+    </ion-segment-button>
+    <ion-segment-button value="farmacon">
+      <img src="assets\farmacias\farmacon.png" value="farmacon" height="35px" width="35px" >
+    </ion-segment-button>
+  </ion-segment>
+
+
+</ion-content>

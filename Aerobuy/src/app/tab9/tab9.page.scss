@@ -1,0 +1,80 @@
+ion-content {
+    --background: #ffffff; 
+  }
+  
+  .logo {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carrito {
+    display: flex;
+    padding-top: 10px;
+    justify-content: right;
+    align-items: right;
+    padding-top: 5px;
+  }
+
+
+
+  ion-menu {
+    --ion-background-color: #ffffff; 
+  }
+  .custom-list-color {
+    --ion-background-color: #290251; // Cambia el color de fondo del ion-list
+    --ion-border-color: #5c9785; // Cambia el color del borde del ion-list
+    --ion-color: #333; // Cambia el color del texto del ion-list
+  }
+  ion-title {
+    font-size: 30px; 
+    font-family: 'Arial', sans-serif; 
+    color:#02295C;
+  }
+  ion-item {
+    --background: #ffffff; 
+    --color: #02295C; 
+    box-shadow: none; 
+    border: none;
+  }
+  ion-menu-button {
+    --color: #02295C; 
+  }
+  ion-toolbar {
+    --background: transparent !important; 
+  }
+  
+  .aero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 20px;
+    font: normal 80px/80px Segoe UI;
+    text-align: left; 
+  }
+  .aero h1 {
+    font-size: 20px;
+    color: #02295C; 
+  }
+  .aero img {
+    margin-right: 10px; 
+  }
+
+
+  .rest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font: normal 80px/80px Segoe UI;
+    text-align: center; 
+  }
+  .rest h1 {
+    font-size: 20px;
+    color: #03459C; 
+  }
+  
